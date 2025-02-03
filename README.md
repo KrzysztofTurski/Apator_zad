@@ -4,4 +4,5 @@ Compile the program using GCC
 
 gcc  Zadanie1.c -o Zadanie1
 ./Zadanie1
+
 The program will add, delete, and check prefixes, displaying expected results in the terminal.
