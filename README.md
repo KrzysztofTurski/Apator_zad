@@ -1,5 +1,5 @@
 
-This implementation meets the requirements of Zadanie C by providing a trie structure for efficient IPv4 prefix management.
+This implementation meets the requirements of Zadanie_C by providing a Tree structure for efficient IPv4 prefix manage.
 
 Compile the program using GCC
 
