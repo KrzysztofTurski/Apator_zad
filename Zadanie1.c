@@ -72,7 +72,7 @@ void free_t(Node *node) {
     if (!node) return;
     free_t(node->child[0]);
     free_t(node->child[1]);
-    free_t(node);
+    free(node);
 }
 
 int main() {
@@ -92,6 +92,6 @@ int main() {
     del(ip1, 16);
     printf("Check 10.20.15.1 after deletion: /%d\n", check(test_ip1));
     
-    free(root);
+    free_t(root);
     return 0;
 }
